@@ -40,6 +40,11 @@ body{
     color: white !important;
 }
 
+.comparison img{
+    width: 30%;
+    height: 30%;
+}
+
 .footer-1{
     background-color: var(--color3);
     height: 30px;
