@@ -51,6 +51,9 @@ body{
 .github-logo{
     width: auto;
     height: 25px;
+    display:block;
+    margin: -5px auto;
+
 }
 
 .summary{
@@ -66,25 +69,36 @@ body{
 p{
     color: var(--color2);
     font-size: 12px;
+    margin-bottom: 30;
+}
+
+.col-md-7{
+}
+
+.col-md-3{
+    margin-bottom: -500px;
 }
 
 .side-vis{
     width: auto;
-    height: 150px
+    height: 120px
 }
 
 .hide-when-small{
     display: none
 }
 
-footer li {
-    margin: -6px 0 0 0;
+.main-vis{
+    height: 500px;
+    width: auto;
+    float: none;
 }
 
 #land-img{
     width: auto;
     height: 300px;
     float: left;
+    align-content: center;
 }
 
 @media(max-width: 768px){
@@ -99,6 +113,15 @@ footer li {
 
     .navbar-top{
         margin-bottom: 3px;
+        background-color: var(--color4) !important;
+    }
+
+    .navbar-brand{
+        color: white !important;
+    }
+
+    .side-nav{
+        color: white !important;
     }
 
     .hide-when-small {
@@ -114,5 +137,10 @@ footer li {
         width: auto;
         height: 100px;
         margin: 0 0 50px 0px;
+    }
+
+    .navbar img {
+     display:block;
+     margin: -5px auto;
     }
 }
