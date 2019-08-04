@@ -70,7 +70,11 @@ p{
 
 .side-vis{
     width: auto;
-    height: 30px
+    height: 150px
+}
+
+.hide-when-small{
+    display: none
 }
 
 footer li {
@@ -95,5 +99,20 @@ footer li {
 
     .navbar-top{
         margin-bottom: 3px;
+    }
+
+    .hide-when-small {
+        display: contents;
+    }
+
+    .show-when-small{
+        display: none;
+        text-align: center;
+    }
+
+    .side-vis{
+        width: auto;
+        height: 100px;
+        margin: 0 0 50px 0px;
     }
 }
