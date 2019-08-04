@@ -52,11 +52,18 @@ body{
     background-color: #ffffff;
 }
 
+
 .summary h2{
     padding-top: 10px;
     color: var(--color4);
 }
 
-.visuals{
 
+footer li {
+    margin: -6px 0 0 0;
+}
+
+#land-img{
+    width: auto;
+    height: 300px;
 }
