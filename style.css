@@ -100,6 +100,11 @@ p{
     align-content: center;
 }
 
+td{
+	text-align: center;
+	color: var(--color2) !important;
+}
+
 @media(max-width: 768px){
     #land-img{
         float:none;
