@@ -25,6 +25,7 @@
 body{
     background: rgb(245, 245, 245);
 }
+
 .navbar-top{
     margin-bottom: 50px;
 }
@@ -33,6 +34,10 @@ body{
 }
 .title-band{
     background-color: var(--color4);
+}
+
+.title-band a{
+    color: white !important;
 }
 
 .footer-1{
@@ -58,6 +63,15 @@ body{
     color: var(--color4);
 }
 
+p{
+    color: var(--color2);
+    font-size: 12px;
+}
+
+.side-vis{
+    width: auto;
+    height: 30px
+}
 
 footer li {
     margin: -6px 0 0 0;
@@ -66,4 +80,20 @@ footer li {
 #land-img{
     width: auto;
     height: 300px;
+    float: left;
+}
+
+@media(max-width: 768px){
+    #land-img{
+        float:none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+    }
+
+    .navbar-top{
+        margin-bottom: 3px;
+    }
 }
