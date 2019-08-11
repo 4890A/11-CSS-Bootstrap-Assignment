@@ -46,6 +46,14 @@ body{
     height: 30%;
 }
 
+.center-h2 h2{
+    text-align: center;
+    position: relative;
+    left: -20px;
+    top: 30px;
+    color: var(--color11) ;
+}
+
 .footer-1{
     background-color: var(--color3);
     height: 30px;
